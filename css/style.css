@@ -1,0 +1,302 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+/*#23CE6B
+  #B!B695
+  #F7F7F7
+  #77D7F9
+  #3D3D3D*/
+
+/*This CSS is for the main image
+.main_image {
+  text-align: left;
+  margin-bottom: 150px;
+  margin-top: 75px;
+  margin-left: 75px;
+  margin-right: 75px;
+  }
+
+  .main_image h2 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 36px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-transform: uppercase; }
+  .main_image p {
+    font-size: 14px;
+    font-family: 'Do Hyeon', sans-serif;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0px;
+    max-width: 570px;
+    margin: auto; }
+  .main_image.white h2 {
+    color: #fff; }
+  .main_image.white p {
+    color: #fff;
+    opacity: .6; }
+*/
+/*This CSS is for the Header */
+banner {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  z-index: 4;
+}
+
+banner_item {
+  float: right;
+  padding:20px 20px;
+}
+
+banner_logo {
+  float: left;
+  color: white;
+  text-align: left;
+  padding: 20PX 20px;
+  text-decoration: none;
+  text-shadow: 2px 2px #3B3B3B;
+  letter-spacing: 4px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+banner_item a { /*The text/link inside of the button*/
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  letter-spacing: 4px;
+  padding: 60px 40px;
+  text-decoration: none;
+  font-weight: 30;
+  font-family: 'Do Hyeon', sans-serif;
+  text-shadow: 2px 2px #3B3B3B
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.welcome_text {
+  padding: 60px 40px;
+  max-width: 400px;
+  font-size: 20px;
+  color: #3D3D3D;
+  text-align: center;
+  letter-spacing: 4px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.banner {
+  text-align: left;
+  font-size: 64px;
+  font-weight: thin;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: #3B3B3B;
+  color: #FFFBF4;
+  z-index: 0;
+  margin:0;
+  top:0;
+}
+  .banner .banner_btn {
+  text-align: left;
+  font-size: 30px;
+  background-color: #FFCA3A;
+  color: #FF595E;
+  }
+  .banner_btn_shadow {
+    position: relative;
+    z-index: 1;
+    right: 50px
+    top: -50px;
+    display: inline-block;
+    border-radius: 15px / 50px
+  }
+  /* The dropdown container */
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  /* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: inherit;
+  float:right;
+  background-color: #f9f9f9;
+  top:80%;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  z-index: 6;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  z-index: 6;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 6;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #3B3B3B;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #3B3B3B;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  font-family: 'Do Hyeon', sans-serif;
+  top: 0;
+}
+
+.actiontext {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #3B3B3B;
+    font-size: 34px;
+    font-family: 'Do Hyeon', sans-serif;
+    width: 100;
+}
+.actionbutton {
+    display:block;
+    border-radius: 50px 50px;
+    background-color: #F7F7F7;
+    position: absolute;
+    width: 200px;
+    top: 160%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #3B3B3B;
+    font-size: 34px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}/*Div Attributes*/
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky; top: 200px;
+    padding-left: 50px;
+  }
