@@ -1,9 +1,15 @@
 <!doctype html>
 <html lang="en">
-<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
   <head>
+  	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <banner>
+    <meta name="viewport" content="Full-width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+
+</head>
+
+<!-- <banner>
       <banner_logo>CoopNet</banner_logo>
       <banner_item><a class="active" href="#home">SIGN UP</a></banner_item>
       <banner_item><a href="#news">FOR INVESTORS</a></banner_item>
@@ -18,6 +24,13 @@
         </div>
       </div>
     </banner>
+ -->
+<div id="header"></div>
+<script>
+$( "#header" ).load( "header.html", function( response, status, xhr ) {});
+</script>
+
+
     <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -27,7 +40,7 @@
     <img src="mountain.jpg" style="width: 100%; opacity:0.5;">
     <div class="actiontext"> We are proud of our investors, let us be proud of u
       <div class="actionbutton">
-        <a href="google.com">Join the team</a>
+        <a href="about.html">Join the team</a>
       </div>
     </div>
     <div class="text">Caption Text</div>
