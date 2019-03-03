@@ -92,7 +92,7 @@ class Home extends Component {
               <p>
                 We are on a mission to bring direct investments from development-minded backers to our community.
               </p>
-              <Button className="introJumboButton" variant="light">Learn more about our mission</Button>
+              <Button className="introJumboButton" variant="light" href="/about">Learn more about our mission</Button>
             </Jumbotron></Col>
             <Col></Col>
           </Row>
