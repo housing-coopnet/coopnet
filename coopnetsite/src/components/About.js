@@ -175,8 +175,7 @@ class About extends Component {
                                                                      <div>
                                                                      <p>
 
-                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
-                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+                                                                      Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations. She is also conducting research on different cultural diasporas.
 
                                                                       </p>
 
@@ -193,6 +192,26 @@ class About extends Component {
 
 
                              </Row>
+
+                             <Row>
+                                                            <Col>
+                                                              <h2>Board of Advisors</h2>
+
+                                                           </Col>
+                                                           </Row>
+                                                           <Row>
+                                                           </Row>
+                                                           <Row>
+                                                           <Col xs={8} md={6} >
+
+                                                                                           <h3> <a href=""> Wintson Sale </a> </h3>
+
+
+                                                                                           <p>
+                                                                                            Winston Sale is an attorney with over ten years of experience in affordable housing, community development, real estate finance, tax and banking law.  As an attorney for the U.S. Department of Housing and Urban Development, Mr. Sale oversaw the disbursement and use of billions of dollars in federal affordable housing grants, including the HOME program, BRAC and Community Development Block Grants.  In private practice, Mr. Sale has represented a wide variety institutional investors in Low Income Housing Tax Credit projects, closing hundreds of millions of dollars of equity investments in subsidized apartment complexes across the United States.  Mr. Sale currently serves as a federal regulatory attorney specializing in ensuring the safety and soundness of wholesale banking institutions that provide liquidity to the national mortgage finance system.
+                                                                                            </p>
+                                                                                            </Col>
+                                                          </Row>
 
 
 
