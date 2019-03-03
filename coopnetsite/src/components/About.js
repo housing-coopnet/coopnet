@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import '../stylesheets/App.css';
-import { Container, Col, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron } from 'react-bootstrap';
+import { Container, Col, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron, Tab, Card, Image, ListGroup} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'
-import Image from 'react-bootstrap/Image'
-import aaron from '../images/aaron.jpeg'
+//import Image from 'react-bootstrap/Image'
+//import ListGroup from 'react-bootstrap/ListGroup'
+
 
 import Footer from "../components/Footer.js"
 import CarouselSlider from "../components/CarouselSlider.js"
 import NavHeader from "../components/NavHeader.js"
+import FAQ from "../components/FAQ.js"
 
 
 class About extends Component {
@@ -22,7 +24,7 @@ class About extends Component {
                    <Col><Jumbotron className="introJumbo" fluid>
                      <h1>About Us</h1>
                      <p>
-                       We are on a mission to bring direct investments from development-minded backers to our community.
+                       Our Mission is to make affordable cooperative housing accessible for everyone.
                      </p>
 
                    </Jumbotron></Col>
@@ -31,14 +33,22 @@ class About extends Component {
 
           <Container>
                    <Row>
-                           <Col><Jumbotron className="introJumbo" fluid>
+                           <Col>
                              <h2>The Problem</h2>
                              <p>
                                Our urban communities have become inaccessible and exclusionary. Combined with many other factors, the high cost of property has made home-ownership an unattainable dream for most residents. Only 37% of Millennials own their own home in the United States, down from 45% for Baby Boomers when they were the same age1. In Alameda County, the median home value was $875,000 in 2018, requiring a minimum annual income of $181,130 to qualify for a mortgage2. As a result, more people are forced to rent housing from profit seeking landlords, driving up rental costs. The average rent for a one bedroom apartment in the City of Berkeley increased by 9.5% annually between 2011 and 2019, from $1,371 to $2,408 per month3. For Oakland the same unit increased from $1,264 to $2,567, representing a 12.9% annual increase4. Rising costs of living are not limited to the Bay Area. Across the United States inflation-adjusted rent increased by 12% between 2000 and 2010, while household incomes fell by 7%, causing half of all renters in the country to spend more than 30% of income on rent5.
                              </p>
 
-                           </Jumbotron></Col>
-                           <Col><h2>Cooperative Real Estate</h2></Col>
+                           </Col>
+                           <Col><h2>Our Vision</h2>
+
+                           <p>A network of diverse cooperative communities in which everyone has a place to call home.
+                              </p>
+                              <p> Benefits of Co-Op housing</p>
+                              <p>
+                              Impact Model and Goals</p>
+
+                            </Col>
                          </Row>
                 </Container>
 
@@ -110,6 +120,8 @@ class About extends Component {
 
                                 <img src={require('../images/cara.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/carawolfe/">  Cara Wolfe </a></h3>
+                                <p>
+                                </p>
                                 </Col>
 
 
@@ -120,6 +132,92 @@ class About extends Component {
 
                     </Container>
 
+
+
+        <Container>
+        <Row>
+             <Col><Jumbotron className="introJumbo" fluid>
+                <h2>Our Model</h2>
+                    <p>A platform to connect, empower, and finance potential housing cooperatives with the support of socially conscious investors.
+ </p>
+
+                    </Jumbotron>
+             </Col>
+        </Row>
+
+
+        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+          <Row>
+            <Col sm={4}>
+              <ListGroup>
+                <ListGroup.Item action href="#link1"> What is cooperative housing? </ListGroup.Item>
+                <ListGroup.Item action href="#link2"> Why would people like in cooperatives? </ListGroup.Item>
+                <ListGroup.Item action href="#link3"> How does CoopNet come in?</ListGroup.Item>
+                <ListGroup.Item action href="#link4"> How do I join / form a cooperative?</ListGroup.Item>
+                <ListGroup.Item action href="#link5"> Why would people back a cooperative they aren’t living in?</ListGroup.Item>
+                <ListGroup.Item action href="#link6"> How does CoopNet come in?</ListGroup.Item>
+                <ListGroup.Item action href="#link7"> How do I back a cooperative?</ListGroup.Item>
+                <ListGroup.Item action href="#link8"> Are there any limits for backers? What about regulations?</ListGroup.Item>
+                <ListGroup.Item action href="#link9"> How will my investment be treated for tax purposes?</ListGroup.Item>
+
+              </ListGroup>
+            </Col>
+            <Col sm={8}>
+              <Tab.Content>
+                <Tab.Pane eventKey="#link1">
+                    <p> Description 1 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link2">
+                   <p> Description 2 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link3">
+                   <p> Description 3 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link4">
+                   <p> Description 4 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link5">
+                   <p> Description 5 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link6">
+                   <p> Description 6 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link7">
+                   <p> Description 7 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link8">
+                   <p> Description 8 </p>
+                    <FAQ />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link9">
+                   <p> Description 9 </p>
+                    <FAQ />
+                </Tab.Pane>
+
+
+
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container>;
+
+
+
+
+
+
+
+
+
+
+        </Container>
         </div>
    );
 }
