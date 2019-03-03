@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import '../stylesheets/App.css';
 import { Container, Col, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron, Tab, Card, Image, ListGroup} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'
-//import Image from 'react-bootstrap/Image'
-//import ListGroup from 'react-bootstrap/ListGroup'
 
 
 import Footer from "../components/Footer.js"
@@ -32,10 +30,12 @@ class CoopTalk extends Component {
        <Container>
                  <Row>
                    <Col><Jumbotron className="introJumbo" fluid>
-                     <h2>Our Mission</h2>
+                     <h2>CoopTalk </h2>
                      <p>
-                       Our Mission is to make affordable cooperative housing accessible for everyone.
+                       Stay up to date on all the latest news from CoopNet.
                      </p>
+
+
 
                    </Jumbotron></Col>
                  </Row>
