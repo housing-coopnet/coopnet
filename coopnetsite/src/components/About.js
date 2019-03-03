@@ -73,66 +73,122 @@ class About extends Component {
                                </Jumbotron></Col>
                              </Row>
                              <Row>
-                                <Col xs={8} md={5} >
+                                <Col xs={8} md={6} >
                                 <img src={require('../images/aaron.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/aaron-scherf-60504873/"> Aaron Scherf </a> </h3>
 
                                 <div class="title">
-                                Co-Founder, Finance and Development
+                                <h4> Co-Founder, Finance and Development </h4>
                                 </div>
                                 <div>
                                 <p>
-                                Interests: Affordable Housing, Alternative Markets, Community Preservation
+                                 Aaron believes in the power of technology and information to unify people and change the world. His passion for housing began in Cape Town, South Africa, where he developed data solutions for a microfinance organization which helped local residents of townships protect and improve their homes. Since then he has worked to support a variety of non-profit organizations and local governments on issues of affordable housing, historic preservation, and migrant rights. Aaron has also served as a researcher in the US House of Representatives, the Centre for European Economic Research, and LandLink Analytic Services--a company he founded during his undergraduate studies at Mercer University. After graduation from UC Berkeley, Aaron plans to begin a career as a Foreign Service Officer with USAID.
                                 </p>
 
-                                <p>
-                                Education / Work:
-                                <ul>
-                                    <li>UC Berkeley MDP ‘20
+                                <h5>
+                                Education </h5>
+                                <b> UC Berkeley MDP ‘20 </b>
                                         <ul>
                                             <li> Goldman School of Public Policy</li>
                                             <li> Division of Data Sciences</li>
                                         </ul>
-                                    </li>
-                                <li> USAID Southern Africa Regional Mission</li>
-                                <li> Universität Heidelberg ‘18</li>
-                                <li> Center for European Economic Research</li>
-                                <li> Migration Hug Heidelberg</li>
-                                <li> US House of Representatives</li>
-                                <li> LandLink Analytic Services</li>
-                                <li> Mercer University BBA ‘17</li>
-                                <li> Linnaeus University ‘15</li>
-                                <li> Tembeka Social Investment Corporation</li>
-                                </ul></p>
-                                <p>
-                                Awards / Other:
-                                Donald M. Payne International Development Fellow ‘17
-                                US Fulbright Scholar ‘17
-                                Humanity in Action Senior Fellow ‘17</p>
 
-                                <p>
-                                Fun Fact:
-                                Has 4 different types of coffee makers</p>
+                                <b> Universität Heidelberg - Fulbright Research Scholar ‘18 </b> <ul>
+                                <li> Audited Coursework for Master of Science in Economics </li>
+                                </ul>
+                                <b> Mercer University - Bachelor of Business Administration ‘17 </b><ul>
+                                <li> Majors in International Business, Finance, and Economics </li>
+                                <li>    Minors in Management and Global Development Studies </li>
+                                </ul>
+
+
                                 </div>
 
                                 </Col>
-                                <Col xs={8} md={5} >
+
+
+                                <Col xs={8} md={6} >
                                 <img src={require('../images/aaron.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/ramsay-boly-637b82100/"> Ramsay Boly </a></h3>
+
+                                <h4> Partnerships and Community Development </h4>
+
+                                                                <div>
+                                                                <p>
+
+                                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+                                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+
+                                                                 </p>
+
+                                                                <h5>
+                                                                Education</h5>
+                                                                <b> UC Berkeley - Master of Development Practice ‘20
+                                                                        </b>
+                                                                        <ul>
+                                                                            <li> Concentration in Information Communications Technology </li>
+                                                                        </ul>
+
+                                                                <b> George Mason University - Bachelor of Conflict Analysis and Resolution ‘15
+                                                            </b> <ul>
+                                                                <li> Minor in Nonprofit Studies</li>
+                                                                </ul>
+                                                                </div>
+
                                 </Col>
 
-                                <Col xs={8} md={5} >
+                                <Col xs={8} md={6} >
                                 <img src={require('../images/jinsu.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/jinsue/"> Jinsu Elhance </a>  </h3>
+                                <h4> Web Development </h4>
+
+                                                                     <div>
+                                                                     <p>
+
+                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+
+                                                                      </p>
+
+                                                                     <h5>
+                                                                     Education  </h5>
+                                                                     <b> UC Berkeley - Bachelor of Science ‘21
+
+                                                                             </b>
+                                                                             <ul>
+                                                                                 <li> Computer Science and Data Science </li>
+                                                                                 <li> Emphasis in Social Policy and Law </li>
+
+                                                                             </ul>
+
+
+                                                                     </div>
                                 </Col>
 
-                                <Col xs={8} md={5} >
+                                <Col xs={8} md={6} >
 
 
                                 <img src={require('../images/cara.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/carawolfe/">  Cara Wolfe </a></h3>
-                                <p>
-                                </p>
+                                    <h4> Web Development </h4>
+
+                                                                     <div>
+                                                                     <p>
+
+                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+
+                                                                      </p>
+
+                                                                     <h5>
+                                                                     Education </h5>
+                                                                     <b> UC Berkeley Computer Science ‘21
+
+                                                                             </b>
+
+
+
+                                                                     </div>
                                 </Col>
 
 
@@ -179,7 +235,7 @@ class About extends Component {
                     <p> What is cooperative housing?</p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#faq">
+                <Tab.Pane eventKey="#faq2">
                    <p> Why would people like in cooperatives? </p>
                     <FAQ />
                 </Tab.Pane>
