@@ -15,14 +15,25 @@ import FAQ from "../components/FAQ.js"
 class About extends Component {
     render() {
       return (
+      <div>
       <div class="App">
       <NavHeader />
 
 
        <Container>
+       <Row>
+               <Col>
+               <p>
+               </p>
+           <h1>About Us</h1>
+
+                          </Col>
+                        </Row>
+       </Container>
+       <Container>
                  <Row>
                    <Col><Jumbotron className="introJumbo" fluid>
-                     <h1>About Us</h1>
+                     <h2>Our Mission</h2>
                      <p>
                        Our Mission is to make affordable cooperative housing accessible for everyone.
                      </p>
@@ -132,8 +143,8 @@ class About extends Component {
 
                     </Container>
 
-
-
+     </div>
+     <div ref="team">
         <Container>
         <Row>
              <Col><Jumbotron className="introJumbo" fluid>
@@ -146,58 +157,58 @@ class About extends Component {
         </Row>
 
 
-        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#faq1">
           <Row>
             <Col sm={4}>
               <ListGroup>
-                <ListGroup.Item action href="#link1"> What is cooperative housing? </ListGroup.Item>
-                <ListGroup.Item action href="#link2"> Why would people like in cooperatives? </ListGroup.Item>
-                <ListGroup.Item action href="#link3"> How does CoopNet come in?</ListGroup.Item>
-                <ListGroup.Item action href="#link4"> How do I join / form a cooperative?</ListGroup.Item>
-                <ListGroup.Item action href="#link5"> Why would people back a cooperative they aren’t living in?</ListGroup.Item>
-                <ListGroup.Item action href="#link6"> How does CoopNet come in?</ListGroup.Item>
-                <ListGroup.Item action href="#link7"> How do I back a cooperative?</ListGroup.Item>
-                <ListGroup.Item action href="#link8"> Are there any limits for backers? What about regulations?</ListGroup.Item>
-                <ListGroup.Item action href="#link9"> How will my investment be treated for tax purposes?</ListGroup.Item>
+                <ListGroup.Item action href="#faq1"> What is cooperative housing? </ListGroup.Item>
+                <ListGroup.Item action href="#faq2"> Why would people like in cooperatives? </ListGroup.Item>
+                <ListGroup.Item action href="#faq3"> How does CoopNet come in?</ListGroup.Item>
+                <ListGroup.Item action href="#faq4"> How do I join / form a cooperative?</ListGroup.Item>
+                <ListGroup.Item action href="#faq5"> Why would people back a cooperative they aren’t living in?</ListGroup.Item>
+                <ListGroup.Item action href="#faq6"> How does CoopNet come in?</ListGroup.Item>
+                <ListGroup.Item action href="#faq7"> How do I back a cooperative?</ListGroup.Item>
+                <ListGroup.Item action href="#faq8"> Are there any limits for backers? What about regulations?</ListGroup.Item>
+                <ListGroup.Item action href="#faq9"> How will my investment be treated for tax purposes?</ListGroup.Item>
 
               </ListGroup>
             </Col>
             <Col sm={8}>
               <Tab.Content>
-                <Tab.Pane eventKey="#link1">
-                    <p> Description 1 </p>
+                <Tab.Pane eventKey="#faq1">
+                    <p> What is cooperative housing?</p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link2">
-                   <p> Description 2 </p>
+                <Tab.Pane eventKey="#faq">
+                   <p> Why would people like in cooperatives? </p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link3">
-                   <p> Description 3 </p>
+                <Tab.Pane eventKey="#faq3">
+                   <p> How does CoopNet come in? </p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link4">
-                   <p> Description 4 </p>
+                <Tab.Pane eventKey="#faq4">
+                   <p> How do I join / form a cooperative? </p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link5">
-                   <p> Description 5 </p>
+                <Tab.Pane eventKey="#faq5">
+                   <p> Why would people back a cooperative they aren’t living in?</p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link6">
-                   <p> Description 6 </p>
+                <Tab.Pane eventKey="#faq6">
+                   <p> How does CoopNet come in?</p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link7">
-                   <p> Description 7 </p>
+                <Tab.Pane eventKey="#faq7">
+                   <p> How do I back a cooperative? </p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link8">
-                   <p> Description 8 </p>
+                <Tab.Pane eventKey="#faq8">
+                   <p> Are there any limits for backers? What about regulations?</p>
                     <FAQ />
                 </Tab.Pane>
-                <Tab.Pane eventKey="#link9">
-                   <p> Description 9 </p>
+                <Tab.Pane eventKey="#faq9">
+                   <p> How will my investment be treated for tax purposes?</p>
                     <FAQ />
                 </Tab.Pane>
 
@@ -218,6 +229,11 @@ class About extends Component {
 
 
         </Container>
+        </div>
+
+        <div ref="footer">
+        <Footer/>
+        </div>
         </div>
    );
 }
