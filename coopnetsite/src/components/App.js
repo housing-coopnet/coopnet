@@ -6,6 +6,7 @@ import {
 
 import Home from './Home';
 import Signup from './Signup';
+import About from './About';
 
 export default class App extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends Component {
       <div>
         <Route path="/" exact component={Home} />
         <Route path="/signup" component={Signup} />
+        <Route path="/about" component={About} />
       </div>
     </Router>
     );

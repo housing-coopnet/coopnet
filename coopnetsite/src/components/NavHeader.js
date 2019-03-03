@@ -13,7 +13,7 @@ class NavHeader extends Component {
               <NavLink to="/"><Button variant="light">Projects</Button></NavLink>
                 <NavLink to="/"><Button variant="light">For Investors</Button></NavLink>
                 <Button variant="light"><NavDropdown title="About Us" id="basic-nav-dropdown">
-                <NavLink to="/"><NavDropdown.Item href="#action/3.4">About Us</NavDropdown.Item></NavLink>
+                <NavLink to="/about"><NavDropdown.Item href="#action/3.4">About Us</NavDropdown.Item></NavLink>
                   <NavDropdown.Divider />
                   <NavLink to="/"><NavDropdown.Item href="#action/3.1">Our Mission</NavDropdown.Item></NavLink>
                   <NavLink to="/"><NavDropdown.Item href="#action/3.2">Our Process</NavDropdown.Item></NavLink>
