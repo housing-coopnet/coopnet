@@ -20,6 +20,7 @@ class NavHeader extends Component {
                   <NavLink to="/about"><NavDropdown.Item href="#action/3.3">Our Model</NavDropdown.Item></NavLink>
                    <NavLink to="/about"><NavDropdown.Item href="#action/3.4">Our Team</NavDropdown.Item></NavLink>
                   </NavDropdown></Button>
+                  <NavLink to="/cooptalk"><Button variant="light">CoopTalk</Button></NavLink>
                   <NavLink to="/signup"><Button variant = "light">Sign Up</Button></NavLink>
               </Nav>
             </Navbar.Collapse>

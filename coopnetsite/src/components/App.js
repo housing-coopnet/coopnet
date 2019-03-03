@@ -7,6 +7,7 @@ import {
 import Home from './Home';
 import Signup from './Signup';
 import About from './About';
+import CoopTalk from './CoopTalk';
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
         <Route path="/" exact component={Home} />
         <Route path="/signup" component={Signup} />
         <Route path="/about" component={About} />
+        <Route path="/cooptalk" component={CoopTalk} />
       </div>
     </Router>
     );
