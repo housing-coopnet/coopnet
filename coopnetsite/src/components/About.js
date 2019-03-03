@@ -144,8 +144,7 @@ class About extends Component {
                                                                      <div>
                                                                      <p>
 
-                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
-                                                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nunc rutrum, maximus lectus at, tincidunt ex. Nulla ut laoreet sem, et dapibus ipsum. Donec et sapien non eros varius scelerisque. Nam gravida enim vel felis varius, eget placerat velit semper. Suspendisse finibus lobortis felis ut dignissim. Integer nec est ac lacus blandit dictum. Praesent lacinia est ligula, nec hendrerit magna imperdiet id.
+                                                                      Jinsu believes that democratizing technology can empower grassroots development around the world. His passion for computing and web development has been shaped by his experiences growing up in Kenya and learning programming in the Bay Area. Beyond his studies at Cal, Jinsu has worked as an editor for the United Youth Journalists and serves as Vice President at Codeology, a student organization dedicated to fostering mentorship and self-exploration among computer scientists. When he isn’t building out a new web layout, Jinsu (fun fact)
 
                                                                       </p>
 
@@ -174,7 +173,7 @@ class About extends Component {
                                                                      <div>
                                                                      <p>
 
-                                                                      Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations. She is also conducting research on different cultural diasporas.
+                                                                      Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations as the President of Engineering for Kids, the Mentorship Coordinator for the Association of Women in Electrial Engineering & Computer Sciene, and the Lead Organizer of CS KickStart. She is also conducting research on different cultural diasporas.
 
                                                                       </p>
 
