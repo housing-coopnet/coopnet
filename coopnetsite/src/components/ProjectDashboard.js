@@ -9,7 +9,7 @@ import FollowProject from "./FollowProject";
 function ProjectJumbo(props) {
     return (
         <Jumbotron fluid className="projectJumbo">
-            <Image className = "projectJumboImage"src="https://cdn.dribbble.com/users/94666/screenshots/3256047/brookliv_illo_01b_dribbble.png" />
+            <Image fluid className = "projectJumboImage"src="https://cdn.dribbble.com/users/94666/screenshots/3256047/brookliv_illo_01b_dribbble.png" />
         </Jumbotron>
     );
 }
@@ -64,9 +64,10 @@ function ProjectCommunity(props) {
 
 function ProjectActions(props) {
     return (
-        <div className="projectActions">
-            <Button block variant="info">CONTRIBUTE TO THIS PROJECT</Button>
-            <Table>
+            <Container >
+                <Row>
+                    <Col xs={10}><Button block variant="info">CONTRIBUTE TO THIS PROJECT</Button></Col>
+</Row>
                 <Row className="actionButtons">
                     <Col>
                         <FollowProject />
@@ -75,8 +76,7 @@ function ProjectActions(props) {
                         <Image className = "socialButtons" src="http://uwc.211ct.org/wp-content/uploads/2017/07/socialmediabar-768x199.png" />
                     </Col>
                 </Row>
-            </Table>
-        </div>
+            </Container>
     );
 }
 

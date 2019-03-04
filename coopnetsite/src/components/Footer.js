@@ -9,8 +9,7 @@ class Footer extends Component {
 <Row>
   <Col>
     <Jumbotron className="footerJumbo" fluid>
-      <h1>CoopNet Footer</h1>
-      <p>Thanks for checking us out idk.</p>
+      <h1>CoopNet</h1>
     </Jumbotron>
   </Col>
   <Col>
