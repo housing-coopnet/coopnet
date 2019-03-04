@@ -226,9 +226,139 @@ div.sticky {
 }
 
 .projectProgress {
-  background-color: #B1B695;
+  background-color: rgb(93, 154, 235);
 }
 
 .navBreaker {
   width: 100%;
 }
+
+.signupTabs{
+  padding-top: 90px;
+  padding-bottom: 300px;
+}
+
+.signupTab {
+  background-color: #3b3b3b;
+}
+
+.signupTabLink {
+  color: #f7f7f7;
+}
+.signupTab:hover{
+  color: #77D7F9;
+}
+
+.projectDashboard {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.projectSummary {
+  padding-right: 100px;;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: transparent;
+  text-align: left;
+  color: #3b3b3b;
+  padding-bottom: 10px;
+}
+
+.projectJumbo {
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: transparent;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.projectTitle {
+font-family: 'Do Hyeon', sans-serif;
+letter-spacing: 8px;
+background-color: transparent;
+padding-bottom: 0px;
+text-align: center;
+position: -webkit-sticky;
+position: sticky;
+}
+
+
+.projectTitle p {
+  color: #3b3b3b;
+  letter-spacing: 3px;
+  }
+
+.headerCollapse a {
+  vertical-align: middle;
+}
+
+.projectSummary h1 {
+  padding-top: 40px;
+  letter-spacing: 6px;
+  color: #196d58;
+}
+
+.projectSummary h2 {
+  letter-spacing: 6px;
+}
+.projectSummary h3 {
+  letter-spacing: 6px;
+}
+.projectSummary p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.projectActions {
+  align-content: center;
+  line-height: 10px;
+  background-color: #ecca57;
+  border-radius: 10px 10px;
+}
+
+.actionButtons {
+  padding-top: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.actionButtons p {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+}
+
+.projectTabs {
+  align-content: center;
+  position: -webkit-sticky;
+}
+
+.projectTab {
+  letter-spacing: 3px;
+  background-color: #f8f8f1;
+}
+
+.projectContent {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f8f8f1;
+
+}
+
+.projectContent h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 8px;
+  color: #3b3b33;
+}
+.projectContent p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  color: #3b3b33;
+  padding-top: 10px;
+}
+
+.socialButtons {
+  height: 40px;
+}
+.projectJumboImage {
+  border-radius: 50px 20px;}
+
+  .tile-front img{
+    width: 100%;
+  }

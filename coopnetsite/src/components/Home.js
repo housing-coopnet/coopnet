@@ -36,12 +36,12 @@ var projectTiles = [
 
 function ProjectTile(props) {
   return (
-    <Col><a href="index.html">
+    <Col><a href="/project">
       <div class="tile">
         <div class="tile-inner">
 
           <div class="tile-front">
-            <img src="src\images\tile1.jpg" alt="" />
+            <img src="https://i.pinimg.com/originals/15/d9/98/15d998c03f08e570cd70e36f31bdd2d6.png" alt="" />
           </div>
           <div class="tile-back">
 
@@ -59,40 +59,65 @@ function ProjectTile(props) {
   );
 }
 
-function HomeCarousel(props) {
-  return (
-    <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={props.slide["image"]}
-      alt=""
-    />
-
-    <Carousel.Caption>
-      <h3>{props.slide["header"]}</h3>
-      <p>{props.slide["text"]}</p>
-    </Carousel.Caption>
-    <Button className="carouselButton">{props.slide["button"]}</Button>
-  </Carousel.Item>
-  );
-}
-
 class Home extends Component {
   render() {
     return (
       <div className="App">
       <NavHeader />
 
-        <CarouselSlider/>
+        <Carousel>
+        <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="https://thepioneeronline.com/wp-content/uploads/2017/06/GRAFF_12-1500x998.jpg"
+        alt=""
+      />
+  
+      <Carousel.Caption>
+        <h3>Take an Interest</h3>
+        <p>Join us</p>
+      </Carousel.Caption>
+      <Button className="carouselButton">Sign up</Button>
+          </Carousel.Item>
+          <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="https://thepioneeronline.com/wp-content/uploads/2017/06/GRAFF_12-1500x998.jpg"
+        alt=""
+      />
+  
+      <Carousel.Caption>
+        <h3>Take an Interest</h3>
+        <p>Join us</p>
+      </Carousel.Caption>
+      <Button className="carouselButton">Sign up</Button>
+          </Carousel.Item>
+          <Carousel.Item>
+      <img
+        className="d-block w-100"
+        src="https://thepioneeronline.com/wp-content/uploads/2017/06/GRAFF_12-1500x998.jpg"
+        alt=""
+      />
+  
+      <Carousel.Caption>
+        <h3>Take an Interest</h3>
+        <p>Join us</p>
+      </Carousel.Caption>
+      <Button className="carouselButton">Sign up</Button>
+    </Carousel.Item>
+
+        </Carousel>
+
+        {/* <CarouselSlider/> */}
 
         <Container>
           <Row>
             <Col><Jumbotron className="introJumbo" fluid>
               <h1>Housing for everyone.</h1>
               <p>
-                We are on a mission to bring direct investments from development-minded backers to our community.
+                We are on a mission to bring direct investments from development-minded backers to our community in order to make affordable housing accessible to everyone.
               </p>
-              <Button className="introJumboButton" variant="light">Learn more about our mission</Button>
+              <NavLink to="/"><Button className="introJumboButton" variant="light">Learn more about our mission</Button></NavLink>
             </Jumbotron></Col>
             <Col></Col>
           </Row>

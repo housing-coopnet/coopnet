@@ -15,11 +15,11 @@ class NavHeader extends Component {
                 <Button variant="light"><NavDropdown title="About Us" id="basic-nav-dropdown">
                 <NavLink to="/"><NavDropdown.Item href="#action/3.4">About Us</NavDropdown.Item></NavLink>
                   <NavDropdown.Divider />
-                  <NavLink to="/"><NavDropdown.Item href="#action/3.1">Our Mission</NavDropdown.Item></NavLink>
+                  <NavLink to="/"><NavDropdown.Item>Our Mission</NavDropdown.Item></NavLink>
                   <NavLink to="/"><NavDropdown.Item href="#action/3.2">Our Process</NavDropdown.Item></NavLink>
                   <NavLink to="/"><NavDropdown.Item href="#action/3.3">Our Team</NavDropdown.Item></NavLink>
                   </NavDropdown></Button>
-                  <NavLink to="/signup"><Button variant = "light">Sign Up</Button></NavLink>
+                <NavLink to="/signup"><Button variant="light">Sign Up</Button></NavLink>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
