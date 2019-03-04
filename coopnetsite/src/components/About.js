@@ -47,7 +47,7 @@ class About extends Component {
                            <Col>
                              <h2>The Problem</h2>
                              <p>
-                               Our urban communities have become inaccessible and exclusionary. Combined with many other factors, the high cost of property has made home-ownership an unattainable dream for most residents. Only 37% of Millennials own their own home in the United States, down from 45% for Baby Boomers when they were the same age1. In Alameda County, the median home value was $875,000 in 2018, requiring a minimum annual income of $181,130 to qualify for a mortgage2. As a result, more people are forced to rent housing from profit seeking landlords, driving up rental costs. The average rent for a one bedroom apartment in the City of Berkeley increased by 9.5% annually between 2011 and 2019, from $1,371 to $2,408 per month3. For Oakland the same unit increased from $1,264 to $2,567, representing a 12.9% annual increase4. Rising costs of living are not limited to the Bay Area. Across the United States inflation-adjusted rent increased by 12% between 2000 and 2010, while household incomes fell by 7%, causing half of all renters in the country to spend more than 30% of income on rent5.
+                               Our urban communities have become inaccessible and exclusionary. Combined with many other factors, the high cost of property has made home-ownership an unattainable dream for most residents. Only 37% of Millennials own their own home in the United States, <a href=""> down from 45% for Baby Boomers when they were the same age </a>. In Alameda County, the median home value was $875,000 in 2018, requiring a minimum annual income of $181,130 to qualify for a mortgage2. As a result, more people are forced to rent housing from profit seeking landlords, driving up rental costs. The average rent for a one bedroom apartment in the City of Berkeley increased by 9.5% annually between 2011 and 2019, from $1,371 to $2,408 per month3. For Oakland the same unit increased from $1,264 to $2,567, representing a 12.9% annual increase4. Rising costs of living are not limited to the Bay Area. Across the United States inflation-adjusted rent increased by 12% between 2000 and 2010, while household incomes fell by 7%, causing half of all renters in the country to spend more than 30% of income on rent5.
                              </p>
 
                            </Col>
@@ -108,7 +108,7 @@ class About extends Component {
 
 
                                 <Col xs={8} md={6} >
-                                <img src={require('../images/aaron.jpeg')} roundedCircle width="250px"/>
+                                <img src={require('../images/ramsay.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/ramsay-boly-637b82100/"> Ramsay Boly </a></h3>
 
                                 <h4> Partnerships and Community Development </h4>
@@ -173,8 +173,7 @@ class About extends Component {
                                                                      <div>
                                                                      <p>
 
-                                                                      Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations as the President of Engineering for Kids, the Mentorship Coordinator for the Association of Women in Electrial Engineering & Computer Sciene, and the Lead Organizer of CS KickStart. She is also conducting research on different cultural diasporas.
-
+                                                                     Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations as the President of Engineering for Kids, the Mentorship Coordinator for the Association of Women in Electrical Engineering & Computer Science, and the Lead Organizer of CS KickStart. She is also conducting research on different cultural diasporas.
                                                                       </p>
 
                                                                      <h5>
@@ -202,7 +201,7 @@ class About extends Component {
                                                            <Row>
                                                            <Col xs={8} md={6} >
 
-                                                                                           <h3> <a href=""> Wintson Sale </a> </h3>
+                                                                                           <h3>  Wintson Sale </h3>
 
 
                                                                                            <p>
