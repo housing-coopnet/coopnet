@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/coopnet/static/js/runtime~main.e01412e1.js"
   },
   {
-    "revision": "7dafb06ecb663850f7e0",
-    "url": "/coopnet/static/js/main.7dafb06e.chunk.js"
+    "revision": "c8925bc0c3150fd10618",
+    "url": "/coopnet/static/js/main.c8925bc0.chunk.js"
   },
   {
     "revision": "5f3364b4c50ad2dbb9f9",
     "url": "/coopnet/static/js/2.5f3364b4.chunk.js"
   },
   {
-    "revision": "7dafb06ecb663850f7e0",
-    "url": "/coopnet/static/css/main.8ddca78e.chunk.css"
+    "revision": "c8925bc0c3150fd10618",
+    "url": "/coopnet/static/css/main.a2d6eeb3.chunk.css"
   },
   {
-    "revision": "ff233d579f0ea5e4f1b61c425b9fb992",
+    "revision": "a5357e26e069e38aa27d059b9c0b6578",
     "url": "/coopnet/index.html"
   }
 ];
